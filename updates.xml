@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <updates>
 
+<!-- 2. Module Bootstrap Webcams -->
+<update>
+<name>Module Bootstrap Webcams</name>
+<description>Update für das dazugehörige Modul</description>
+<version>1.5</version>
+<infourl title="mod_webcams">https://www.troppmair.com</infourl>
+<tags>
+<tag>stable</tag>
+</tags>
+<targetplatform name="joomla" version="[456].*" />
+<element>mod_webcams</element>
+<type>module</type>
+<client>site</client>
+<downloads>
+<downloadurl type="full" format="zip">https://github.com/JoeTroppmairExtensions/JTE_Updates/raw/refs/heads/main/mod_webcams_1.1.zip</downloadurl>
+</downloads>
+</update>
+
 <!-- 1. Templates -->
 <update>
 <name>Apart Tuxertal 2026 Template</name>
