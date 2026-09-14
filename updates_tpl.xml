@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+<!-- 1. Templates -->
+<update>
+<name>Apart Tuxertal 2026 Template</name>
+<version>1.6</version>
+<infourl title="aptx26">https://www.troppmair.com</infourl>
+<tags>
+<tag>stable</tag>
+</tags>
+<targetplatform name="joomla" version="[456].*" />
+<element>aptx26</element>
+<type>template</type>
+<client>site</client>
+<downloads>
+<downloadurl type="full" format="zip">https://github.com/JoeTroppmairExtensions/JTE_Updates/raw/refs/heads/main/aptx26_1.6.zip</downloadurl>
+</downloads>
+</update>
+</updates>
