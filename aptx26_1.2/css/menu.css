@@ -1,0 +1,165 @@
+
+.item-157 {
+	margin: auto 10px;
+}
+#jteMenu {
+	
+}
+#jteMenu.sticky  {
+	margin-top: 0;
+	padding: 0.5rem;
+	z-index: 9;
+	position: sticky;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #8e8e8e;
+}
+#jteMenu.sticky.showSticky {
+	animation: stickyAnimation 1s ease 400ms 1 alternate backwards;
+}
+	@keyframes stickyAnimation {
+		0% {
+			opacity: 1;
+			transform: rotateX(-100deg);
+			transform-origin: top;
+		}
+		100% {
+			opacity: 1;
+			transform: rotateX(0deg);
+			transform-origin: top;
+		}
+	}
+
+#jteMenu.sticky.hideSticky {
+	animation: stickyAnimationReturn 1s ease 400ms 1 alternate backwards;
+}
+	@keyframes stickyAnimationReturn {
+		100% {
+			opacity: 1;
+			transform: rotateX(0deg);
+			transform-origin: top;
+		}
+		0% {
+			opacity: 1;
+			transform: rotateX(-100deg);
+			transform-origin: top;
+		}
+	}
+
+#jteMenu.inSlider  {
+	margin-top: 1rem;
+	z-index: 9;
+	position: absolute;
+	top: 0.5rem;
+	left: 0.5rem;
+	right: 0.5rem;
+	animation: sliderAnimation 1s ease 400ms 1 alternate backwards;
+}
+	@keyframes sliderAnimation {
+		0% {
+			opacity: 0;
+			transform: rotateX(-100deg);
+			transform-origin: top;
+		}
+		100% {
+			opacity: 1;
+			transform: rotateX(0deg);
+			transform-origin: top;
+		}
+	}
+
+
+.offcanvas {
+	background-color: #828b8c;
+}
+
+
+/* Menue EB-Menu Styling */
+
+/* ul#easybookingmenu>li>a { */
+
+
+/* Menu-Styling Datei jteBS5-default.php */
+
+
+#jteBS5 .nav-item {
+	text-align: center;
+}
+
+#jteBS5 .nav-item a {
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	font-family: Eurofurence;
+	letter-spacing: 2px;
+	margin-top: 1rem;
+}
+
+#jteBS5 .nav-item a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ccc;
+    transition: width .3s;
+}
+
+#jteBS5 .nav-item a:hover::after {
+    width: 100%;
+    //transition: width .3s;
+}
+
+#jteBS5 .defaultmenu a::after {
+	background: none; /* Hover-Effekt ausschalten von nav-item:a::after */
+}
+
+span.image-title {
+	display: block;
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-family: Eurofurence;
+	color: green;
+	border-bottom: 1px solid green;
+}
+
+#jteBS5 li.headingmenu {
+	font-weight: 600;
+	text-align: left;
+}
+
+#jteBS5 li.headingmenu:nth-child(2) {
+	margin: 0.5rem 0 0 0;
+}
+#jteBS5 li.headingmenu:not(:nth-child(2)) {
+	margin: 1.5rem 0 0 0;
+	border-top: 1px solid #999;
+	padding-top: 3%;
+}
+
+#bs5lg li {
+	border: 1px solid;
+	padding: 5px;
+	border-radius: 5%;
+}
+
+#footerMenu .nav-item {
+	margin: 0 15px;
+}
+
+#footerMenu a {
+	text-decoration: none;
+}
+
+#footerMenu a.nav-link:hover {
+	font-weight: 200;
+}
+
+#footerMenu a.nav-link:active {
+	font-weight: bold;
+}
+
+#footerMenu a.navbar-brand {
+	color: #f0f0e8;
+}

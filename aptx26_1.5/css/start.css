@@ -1,0 +1,13 @@
+
+@import "carouselimages.css";
+
+#content {
+	margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+
+div.page-header h1 {
+	top: 18%;
+}
+}

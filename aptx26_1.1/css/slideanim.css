@@ -1,0 +1,27 @@
+
+/* Slide Animation float-panel.js */
+
+.slideanim {
+    visibility:hidden;
+    visibility:visible\9;/*For old IE browsers IE6-8 */
+}
+.slideanim.slide {                  
+    visibility: visible;                  
+    animation: slide 2s;
+}
+.slideanim::after {
+    /* useful when its child elements are float:left; */
+    content: "";
+    display: table;
+    clear: both;
+}
+@keyframes slide {
+    0% {
+        opacity: 0.2;
+        transform: translateX(-5%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    } 
+}

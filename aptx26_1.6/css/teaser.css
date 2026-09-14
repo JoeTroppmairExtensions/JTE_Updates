@@ -1,0 +1,69 @@
+.jte-teaser {
+	position: absolute;
+	z-index: 1;
+	border-style: groove;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.jte-teaser:hover {
+	background-color: #a4a38f;
+	z-index: 2;
+}
+.jte-teaser-review {
+	background-color: #116a3a;
+	color: #fff;
+	rotate: -18deg;
+	left: 1.2rem;
+	bottom: 20vH;
+	width: 14rem;
+	height: 12rem;
+}
+.jte-teaser-book {
+	background-color: #4aa739;
+	color: #333;
+	rotate: -9deg;
+	left: 12rem;
+	bottom: 28vH;
+	width: 12rem;
+	height: 10.5rem;
+}
+.jte-teaser-content {
+	height: auto;
+	margin: .5rem auto 0;
+}
+.jte-teaser-book > .jte-teaser-content {
+	margin: .8rem auto 0;
+}
+.jte-teaser-content .h5 {
+	text-align: center;
+	font-weight: bold;
+}
+.jte-teaser-content .h5 > i {
+	font-size: 2.2rem;
+}
+.jte-teaser-content .text {
+	margin: 0 .6rem 0 ;
+	padding-left: 1.2rem;
+	line-height: 1.2;
+}
+
+@media (min-width: 992px) {
+	.jte-teaser-review {
+		left: 2rem;
+		bottom: 4vH;
+	}
+	.jte-teaser-book {
+		left: 12rem;
+		bottom: 18vH;
+	}
+}
+
+@media (min-width: 1200px) {
+	.jte-teaser-review {
+		left: 3rem;
+		bottom: 8vH;
+	}
+	.jte-teaser-book {
+		left: 15rem;
+		bottom: 4vH;
+	}
