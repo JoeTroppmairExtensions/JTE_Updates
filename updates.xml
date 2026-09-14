@@ -16,8 +16,11 @@
 			<downloadurl type="full" format="zip">https://github.com/JoeTroppmairExtensions/JTE_Updates/raw/refs/heads/main/aptx26_1.6.zip</downloadurl>
 		</downloads>
 	</update>
+
+	<!-- 2. Module -->
 	<update>
 		<name>Module Bootstrap Webcams</name>
+		<description>Update für das dazugehörige Modul</description>
 		<version>1.5</version>
 		<infourl title="mod_webcams">https://www.troppmair.com</infourl>
 		<tags>
@@ -32,9 +35,10 @@
 		</downloads>
 	</update>
 	
-	<!-- 2. Module -->
+	<!-- 2. Module -->	
 	<update>
 		<name>Module Bootstrap Carousel Slider</name>
+		<description>Update für das dazugehörige Modul</description>
 		<version>2.5</version>
 		<infourl title="mod_carousel_images">https://www.troppmair.com</infourl>
 		<tags>
@@ -48,4 +52,5 @@
 			<downloadurl type="full" format="zip">https://github.com/JoeTroppmairExtensions/JTE_Updates/raw/refs/heads/main/mod_carousel_images_1.1.zip</downloadurl>
 		</downloads>
 	</update>
+
 </updates>
