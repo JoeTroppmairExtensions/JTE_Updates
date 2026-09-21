@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.5" type="template" client="site" method="upgrade">
+	<name>Hotel Neuwirt 21st</name>
+	<creationDate>10.06.2020</creationDate>
+	<author>Joe Troppmair</author>
+	<authorEmail>joe@troppmair.com</authorEmail>
+	<authorUrl>https://www.troppmair.com</authorUrl>
+	<copyright>2023</copyright>
+	<version>2.0</version>
+	<description>Joomla! Template mit Bootstrap 5 für das Hotel Neuwirt.</description>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>webfonts</folder>
+		<filename>changelog.txt</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	<positions>
+		<position>menu</position>
+		<position>background</position>
+		<position>left</position>
+		<position>right</position>
+		<position>copyright</position>
+		<position>rd-teaser</position>
+		<position>teaser</position>
+		<position>off-canvas-1</position>
+		<position>off-canvas-2</position>
+		<position>off-canvas-3</position>
+		<position>off-canvas-4</position>
+		<position>topbar</position>
+		<position>topbar-right</position>
+		<position>debug</position>
+	</positions>
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.tpl_hotelneuwirt21st.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_hotelneuwirt21st.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" name="JTE Updates :: Templates" priority="1">https://raw.githubusercontent.com/JoeTroppmairExtensions/JTE_Updates/refs/heads/main/templates/tpl_hotelneuwirt21st/updates.xml</server>
+	</updateservers>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="leftColumnWidth" type="list" default="3" label="Linke Spalten-Breite" description="Bootstrap-Breite der linken Inhalts-Spalte">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+				<field name="rightColumnWidth" type="list" default="3" label="Rechte Spalten-Breite" description="Bootstrap-Breite der rechten Inhalts-Spalte">
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+				<field name="fontawesome" type="radio" class="btn-group" default="1" label="Font Awesome" description="Enable Font Awesome for better icons in Bootstrap">
+					<option value="1">Ja, verwenden!</option>
+					<option value="0">Nein, nicht verwernden!</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

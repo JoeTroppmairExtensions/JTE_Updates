@@ -1,0 +1,462 @@
+/* Bootstrap 5 Content Slider */
+
+#fadeBS5carousel h5 {
+	color: #9E122D;
+	margin-top: 4px;
+}
+#fadeBS5carousel p {
+	font-size: 80%;
+}
+
+
+#fadeBS5carousel img {
+	border-radius: 50%;
+	max-width:99%;
+	margin:5px 0px;
+}
+#fadeBS5carousel img:hover {
+	opacity: 0.6;
+}
+.newsflash {
+	max-height: 116px;
+	min-height: 110px;
+}
+.flying-button {
+	position: absolute;
+	z-index: 1;
+	top: 30%;
+	left: 66%;
+}
+.carousel-inner {
+	margin: 0 80px;
+}
+.carousel-control-next-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.carousel-control-prev-icon {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next, .carousel-control-prev {
+	position: absolute;
+	top: 30%;
+	bottom: 0;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15%;
+	padding: 0;
+	color: #fff;
+	text-align: center;
+	background: 0 0;
+	border: 0;
+	opacity: .5;
+	transition: opacity .15s ease;
+
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: transparent;
+	background-position: 50%;
+	background-size: 100% 100%;
+}
+.carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+	color: #666;
+}
+
+/* Menü Iframe Wrapper */
+
+iframe {
+	border: none;
+}
+
+/* Casablanca */
+.casa-outer-footer small {
+	display: none;
+}
+/* ausblenden aller Zimmertypen bei Widget Zimmerliste */
+.casa-row.casa-roomtype-item {
+    display:none;
+}
+/* Aktivieren einzelner Zimmertypen Widget Zimmerliste wird über J!-Content {source} gesteuert!
+.casa-row.casa-roomtype-item[data-roomtypeId="3"],
+.casa-row.casa-roomtype-item[data-roomtypeId="5"],
+.casa-row.casa-roomtype-item[data-roomtypeId="7"] {
+    display:block !important;
+}*/
+
+/* ausblenden aller Pauschalen bei Widget Packages 
+.casa-row.casa-package-item,
+.casa-row.casa-package-item-divider {
+	display: none;
+}*/
+/* Aktivieren einzelner Pauschalen Widget Packages wird über J!-Content {source} gesteuert!
+.casa-row.casa-package-item[data-packagecode="PMS_8SDMK4QN"] {
+	display: block !important;
+}*/
+
+/* Skipass-Tarife */
+table.skipass thead {
+	background-color: #9E122D;
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.skipass span {
+	font-size: 70%;
+}
+.skipassinfotext {
+	font-weight: bold;
+	background-color: #ccc;
+}
+	
+/* Joes Anfrageformular */
+.clr {
+	clear: both;
+}
+.terms { display:none; }
+.alert {
+	padding: 8px 35px 8px 35px;
+	margin-bottom: 18px;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	background-color: #fcf8e3;
+	border: 3px solid #d3534c;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.alert,
+.alert h4 {
+	color: #000;
+}
+.alert h4 {
+	margin: 0;
+}
+label.contactlabel {
+	display: block;
+	font-size: 11px;
+}
+label.checkboxlabel {
+	display: block;
+	margin-left: 20px;
+}
+.fa-pt {
+	padding-top: 10px;
+}
+
+/* FontAwesome Menüstyling joestopbar.php */
+.fahome::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f015";
+	margin-right: 5px;
+	font-weight: 0;
+}
+.fabed::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f236";
+	margin-right: 5px;
+	font-weight: 900;
+}
+.faphone::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f095";
+	margin-right: 5px;
+	font-weight: 900;
+}
+.famail::before {
+	font-family: "Font Awesome 5 Free";
+	content: "\f0e0";
+	margin-right: 5px;
+	font-weight: 0;
+}
+.faskype::before {
+	font-family: "Font Awesome 5 Brands";
+	content: "\f17e";
+	margin-right: 5px;
+	font-weight: 0;
+}
+.fawhatsapp::before {
+	font-family: "Font Awesome 5 Brands";
+	content: "\f232";
+	margin-right: 5px;
+	font-weight: 0;
+}
+.faenvelope::before {
+	font-family: "Font Awesome 5 Brands";
+	content: "\f0e0";
+	margin-right: 5px;
+	font-weight: 0;
+}
+/* jQuery Datepicker*/
+
+a.ui-datepicker-prev, a.ui-datepicker-next {
+	border: 1px solid #000;
+	background: transparent;
+}
+span.ui-icon {
+	color: #000;
+	background: #000;
+	border-radius: 0px 50px;
+}
+
+/*  html Elements  */
+a {
+	color: #9E122D;
+	text-decoration: none;
+	background-color: transparent;
+}
+a:hover {
+	color: #9E122D;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.bg-grey {
+	background-color: #e6e6e6 !important;
+}
+blockquote {
+	border-left: 5px solid #009ce1;
+	margin: 20px 40px;
+	padding: 0 20px;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	color: #009ce1;
+	content: open-quote;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+blockquote p {
+	display: inline;
+}
+
+body {
+	background-color: #b7a597;
+}
+h4 {
+	color: #9E122D;
+}
+
+#background {
+	background: none;
+}
+#background img {
+	display: block;
+	position: fixed;
+	z-index:-20;
+	object-fit: cover;
+	bottom: 0;
+	left: 0;
+}
+
+#topbar {
+	background-color: #f8f9fa;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 6;
+}
+#topbar .navbar {
+	padding: 0;
+}
+#topbar .menu-opener {
+	 font-size: 30px;
+	 cursor: pointer;
+	 margin-left: 20px;
+}
+#topbar .topbar-right{
+	display: contents;
+}
+
+#bildwechsel {
+	margin: 10px 0;
+}
+#breadcrumbs {
+	position: absolute;
+	z-index: 4;
+	top: 4rem;
+	left: 4rem;
+	line-height: 8px;
+}
+#breadcrumbs ol {
+	margin: 0;
+}
+.breadcrumb {
+	font-size: 70%;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	padding: .75rem 1rem;
+	margin-bottom: 1rem;
+	list-style: none;
+	background-color: #e9ecef;
+	border-radius: 10px;
+	
+}
+
+#showcase {
+	background: #fff;
+	border-bottom: 2px solid #9E122D;
+	border-top-left-radius: 10px;
+	padding: 4px 0 0;
+	min-height: 110px;
+	max-height: 116px;
+}
+.showcase-logo {
+	background: url(../images/logo.png) top left no-repeat;
+	height: 110px;
+	border: none;
+	border-top-left-radius: 10px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+.showcase-right {
+	height: 110px;
+}
+#content {
+	margin: 0;
+	padding: 6px 0;
+	background: url(../images/content_bg.png) repeat;
+}
+#footer {
+	background-color: #434343;
+	border-bottom-left-radius: 10px;
+	color: #fff;
+	margin: 0 0 10px;
+	padding: 6px 0;
+}
+#footer a:link, #footer a:visited{
+	color: #fff;
+	text-decoration: none;
+}
+#footer a:hover {
+	text-decoration: underline;
+}
+
+.partner {
+	background-color: #fff;
+	border: 1px solid #eee;
+	border-radius: 10px;
+	padding: 15px 10px;
+	margin-bottom: 12px;
+}
+
+/*  MODUL mod-languages  */
+.mod-languages {
+	margin: 0;
+}
+ul.lang-inline {
+	list-style: none;
+	margin: 0 0 6px 0;
+	padding: 0;
+}
+/*  Header Elements  */
+/*  Sidebar Elements  */
+/*  Article and  Content Styles  */
+
+/*  Navigation  */
+nav .nav-child {
+	position: absolute;
+	top: 95%;
+	left: 0;
+	z-index: 1000;
+	display: none;
+	float: left;
+	list-style: none;
+}
+
+nav .nav-child.pull-right {
+	right: 0;
+	left: auto;
+}
+
+nav .nav-child a {
+	display: block;
+	clear: both;
+	white-space: nowrap;
+}
+
+nav .nav > li {
+	position: relative;
+}
+
+nav .nav > li:hover > .nav-child, nav .nav > li > a:focus + .nav-child {
+	display: block;
+}
+
+nav .nav > li {
+	position: relative;
+}
+
+nav .nav > li:hover > .nav-child, nav .nav > li > a:focus + .nav-child {
+	display: block;
+}
+
+nav .nav-child:before {
+	position: absolute;
+	display: inline-block;
+	content: '';
+}
+
+nav .nav-child:after {
+	position: absolute;
+	display: inline-block;
+	content: '';
+}
+
+@media (max-width: 979px) {
+
+	nav .nav-child {
+		position: static;
+		top: auto;
+		left: auto;
+		z-index: 1000;
+		display: block;
+		float: none;
+		min-width: 160px;
+	}
+
+	nav .nav-child:before, nav .nav-child:after {
+		display: none;
+	}
+
+	#teaser {
+		height: 90px;
+	}
+
+}
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 980px) { 
+
+	#teaser {
+		min-height: 200px;
+	}
+	#teaser .moduletable {
+		padding: 40px 0 0 60px;
+		background: #444;
+		border-radius: 50%;
+		flex: 0;
+		height: 180px;
+		width: 180px;
+	}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }

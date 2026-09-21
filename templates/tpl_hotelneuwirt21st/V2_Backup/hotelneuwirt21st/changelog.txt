@@ -1,0 +1,15 @@
+###################################################
+##
+##		Joe Troppmair
+##		Joomla! Template (C) 2023
+##
+###################################################
+
+Version 1.0.0	10.06.2020
+
+	keine relevanten Informationen
+	
+Version 2.0		20.09.2023
+	* Diverse Anpassungen an Joomla!4
+	* Article-News Override inkl. Bootstrap Carousel anstatt BT-Content-Slider (J!3)
+	
