@@ -9,7 +9,7 @@
 <tags>
 <tag>stable</tag>
 </tags>
-<targetplatform name="joomla" version="[5].*" />
+<targetplatform name="joomla" version="[456].*" />
 <element>aptx26</element>
 <type>template</type>
 <client>site</client>
