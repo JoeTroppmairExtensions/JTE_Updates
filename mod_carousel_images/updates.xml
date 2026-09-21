@@ -18,21 +18,4 @@
 </downloads>
 </update>
 
-<update>
-<name>Module Bootstrap Carousel Slider</name>
-<description>Update JTE Bootstrap Carousel Images Slider Module</description>
-<version>6.2</version>
-<infourl title="mod_carousel_images">https://www.troppmair.com</infourl>
-<tags>
-<tag>stable</tag>
-</tags>
-<targetplatform name="joomla" version="[456].*" />
-<element>mod_carousel_images</element>
-<type>module</type>
-<client>site</client>
-<downloads>
-<downloadurl type="full" format="zip">https://github.com/JoeTroppmairExtensions/JTE_Updates/raw/refs/heads/main/mod_carousel_images/download/mod_carousel_images_V6.1.zip</downloadurl>
-</downloads>
-</update>
-
 </updates>
