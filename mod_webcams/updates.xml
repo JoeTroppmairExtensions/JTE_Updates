@@ -3,8 +3,8 @@
 
 <!-- 2. Module Bootstrap Webcams -->
 <update>
-<name>Module Bootstrap Webcams</name>
-<description>Update für das dazugehörige Modul</description>
+<name>Bootstrap Webcams</name>
+<description>Aktuelle Versionen für das Bootstrap 5 Webcam Module by JTE (C)</description>
 <version>6.1</version>
 <infourl title="mod_webcams">https://www.troppmair.com</infourl>
 <tags>
